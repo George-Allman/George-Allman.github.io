@@ -1,0 +1,158 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" color="#DCEBFA" fill="none">
+
+<defs>
+  <g id="resistor">
+    <path d="M0,0 L25,0 L30,-10 L40,10 L50,-10 L60,10 L70,-10 L75,0 L100,0" fill="none" stroke="currentColor" stroke-width="1.2"/>
+  </g>
+  <g id="capacitor">
+    <line x1="0" y1="0" x2="45" y2="0" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="45" y1="-14" x2="45" y2="14" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="55" y1="-14" x2="55" y2="14" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="55" y1="0" x2="100" y2="0" stroke="currentColor" stroke-width="1.2"/>
+  </g>
+  <g id="inductor">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="currentColor" stroke-width="1.2"/>
+    <path d="M20,0 a7.5,9 0 0 1 15,0 a7.5,9 0 0 1 15,0 a7.5,9 0 0 1 15,0 a7.5,9 0 0 1 15,0" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="80" y1="0" x2="100" y2="0" stroke="currentColor" stroke-width="1.2"/>
+  </g>
+  <g id="diode">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="currentColor" stroke-width="1.2"/>
+    <path d="M40,-12 L40,12 L60,0 Z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="60" y1="-12" x2="60" y2="12" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="60" y1="0" x2="100" y2="0" stroke="currentColor" stroke-width="1.2"/>
+  </g>
+  <g id="source">
+    <line x1="0" y1="0" x2="32" y2="0" stroke="currentColor" stroke-width="1.2"/>
+    <circle cx="50" cy="0" r="18" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    <path d="M40,0 q5,-12 10,0 q5,12 10,0" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="68" y1="0" x2="100" y2="0" stroke="currentColor" stroke-width="1.2"/>
+  </g>
+  <circle id="node" r="3" fill="currentColor"/>
+</defs>
+
+<g transform="translate(800,500)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(700,500)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(800,400)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(500,900)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(200,200)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1400,700)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(300,800)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(200,700)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(0,200)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1400,400)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1500,700)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(600,900)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(800,900)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(300,100)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1400,300)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1400,200)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1100,700)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1300,0)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(0,900)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(300,300)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(300,0)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1000,600)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1100,400)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(200,800)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(0,700)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(700,600)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1400,0)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(600,800)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1300,300)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(100,700)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1200,900)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(500,100)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1300,500)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(900,600)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(0,100)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(100,500)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(800,200)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1200,100)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(700,800)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1500,300)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(500,700)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(400,0)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(0,600)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1300,900)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(400,700)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(900,0)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(0,300)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(500,300)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(200,300)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1000,300)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(200,600)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(400,500)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1500,200)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(500,500)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1500,800)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1300,800)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1200,700)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(200,0)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(100,0)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1100,800)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(300,500)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(800,700)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1100,500)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(100,900)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(500,700) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1400,0) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(0,400) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1300,400) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(600,400) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1500,700) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1400,300) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(400,300) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(100,400) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(200,400) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(400,0) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(500,100) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1400,200) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1200,200) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(400,800) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(500,0) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(600,0) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(700,300) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(100,600) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1000,400) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(800,500) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1000,700) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1300,200) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1000,300) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(600,300) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(100,800) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1000,200) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1300,300) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(500,200) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1600,500) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1100,300) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(200,100) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(700,500) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(900,800) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(200,500) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(1600,100) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1400,600) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(800,600) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1400,700) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1600,800) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(800,400) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(1600,600) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(0,200) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1200,0) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1400,400) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(300,100) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1600,300) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(300,300) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(1100,400) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(800,300) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(400,200) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(400,600) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(100,100) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(100,300) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(0,300) rotate(90)" opacity="0.95"><use href="#inductor"/></g>
+<g transform="translate(1000,0) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(900,400) rotate(90)" opacity="0.95"><use href="#diode"/></g>
+<g transform="translate(1500,500) rotate(90)" opacity="0.95"><use href="#source"/></g>
+<g transform="translate(900,0) rotate(90)" opacity="0.95"><use href="#resistor"/></g>
+<g transform="translate(800,700) rotate(90)" opacity="0.95"><use href="#capacitor"/></g>
+<g transform="translate(700,700) rotate(90)" opacity="0.95"><use href="#source"/></g>
+</svg>
